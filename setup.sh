@@ -1,4 +1,4 @@
-cd agent-tool-webscrapegraph
 python -m venv .venv
 source .venv/bin/activate
+cd Scrapegraph-ai
 pip install -e .
