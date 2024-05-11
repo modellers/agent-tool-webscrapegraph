@@ -1,5 +1,5 @@
 git submodule update --init --recursive
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 cd Scrapegraph-ai
 pip install -e .
