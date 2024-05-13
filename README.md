@@ -28,4 +28,4 @@ python cli.py <source> --model <model> --temperature <temperature> --format <for
 
 #### Example
 
-python cli.py <source> --model <model> --temperature <temperature> --format <format> --base_url <base_url> --embeddings_model <embeddings_model> --verbose --output <output_file>
+python3 cli.py "List me all the projects with their descriptions" https://perinim.github.io/projects  --model ollama/gemma
